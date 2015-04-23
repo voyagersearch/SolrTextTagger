@@ -32,7 +32,7 @@
 
   <groupId>org.opensextant</groupId>
   <artifactId>solr-text-tagger</artifactId>
-  <version>2.1-VG3</version>
+  <version>2.1-VG4</version>
   <packaging>jar</packaging>
 
   <name>Solr Text Tagger</name>
