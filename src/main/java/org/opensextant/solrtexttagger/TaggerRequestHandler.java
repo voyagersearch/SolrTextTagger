@@ -361,7 +361,7 @@ public class TaggerRequestHandler extends RequestHandlerBase {
    * those in typical Solr 'defaults', 'appends', and 'invariants'.  The top level ones are treated
    * as invariants.
    */
-  protected void setTopInitArgsAsInvariants(SolrQueryRequest req) {
+  private void setTopInitArgsAsInvariants(SolrQueryRequest req) {
     // First convert top level initArgs to SolrParams
     HashMap<String,String> map = new HashMap<String,String>(initArgs.size());
     for (int i=0; i<initArgs.size(); i++) {
