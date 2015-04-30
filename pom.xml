@@ -32,7 +32,7 @@
 
   <groupId>org.opensextant</groupId>
   <artifactId>solr-text-tagger</artifactId>
-  <version>2.1-VG5</version>
+  <version>2.1-VG6</version>
   <packaging>jar</packaging>
 
   <name>Solr Text Tagger</name>
@@ -84,7 +84,7 @@
     <!--
      For solr 4.x compatability see version 2.0, tag: solr-text-tagger-2.0
     -->
-    <solr.version>5.2.0-VG7</solr.version>
+    <solr.version>5.2.0-VG8</solr.version>
   </properties>
 
   <prerequisites>
